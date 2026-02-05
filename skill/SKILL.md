@@ -19,6 +19,9 @@ Your channel-specific agent prompt should decide:
 - quiz flow UX
 - how user answers are parsed
 
+A ready-to-copy prompt template lives in:
+- `skill/prompt-examples/AGENT_PROMPT_TEMPLATE.md`
+
 ## Storage
 
 - SQLite DB path is controlled via env var:
