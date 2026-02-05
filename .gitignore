@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Local data
+memory/
+*.db
+
+# Secrets
+secrets.env
+.env
+
+# Local-only scripts
+skill/scripts/local/
