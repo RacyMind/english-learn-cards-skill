@@ -8,6 +8,8 @@ A lightweight flashcard + SRS (spaced repetition) skill for **OpenClaw**, backed
 
 This repo is intentionally **platform-agnostic**: it can be used from Slack, Discord, WhatsApp, Telegram, etc. Your channel/agent prompt decides the formatting.
 
+See: `skill/prompt-examples/AGENT_PROMPT_TEMPLATE.md` for a ready-to-copy prompt template.
+
 ## What’s included
 
 - `skill/SKILL.md` — skill instructions (generic; no personal info)
