@@ -23,41 +23,18 @@ See: `skill/prompt-examples/AGENT_PROMPT_TEMPLATE.md` for a ready-to-copy prompt
 
 See `.gitignore`.
 
-## Setup
+## Install (OpenClaw)
 
-1) Copy the skill to your OpenClaw skills directory (or symlink it):
+Copy this skill into your OpenClaw workspace:
 
 ```bash
 mkdir -p ~/clawd/skills/local
 cp -a skill ~/clawd/skills/local/english-learn-cards
 ```
 
-2) Pick a DB path.
+Then follow the skill instructions:
 
-By default, `words.py` uses a placeholder path. Set an env var to control it:
-
-```bash
-export ENGLISH_LEARN_CARDS_DB=~/clawd/memory/english-learn-cards.db
-```
-
-3) Initialize DB:
-
-```bash
-python ~/clawd/skills/local/english-learn-cards/scripts/words.py init
-```
-
-## Usage (CLI)
-
-```bash
-python .../words.py add "implement" \
-  --pos verb \
-  --ipa "/ˈɪmpləˌmɛnt/" \
-  --meanings "to put a plan into action" \
-  --examples "We implemented the change." "..." "..."
-
-python .../words.py render "implement" --fill-audio
-python .../words.py teach-me   # (your agent/prompt can implement the chat loop)
-```
+<https://github.com/RacyMind/english-learn-cards-skill/blob/main/skill/SKILL.md>
 
 ## Publishing / customization
 
